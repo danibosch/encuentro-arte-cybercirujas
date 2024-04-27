@@ -18,20 +18,22 @@
       background-position: 50% 20%, 0 0, 10% 0%, 0 0;
       font-family: "Monospace";
     }
-    div.main {
+
+    .main {
       margin: 0 auto;
       width: 80%;
       padding: 20px 0;
     }
-
     .row {
       display: flex;
+      margin-top: 20px;
     }
-
     .col {
       width: 50%;
       flex: 50%;
+      padding: 10px;
     }
+
     h1 {
       color: white;
       font-size: 28px;
@@ -53,25 +55,8 @@
     span {
       background-color: rgba(0,0,20,90%);
     }
-    p.title {
-      padding: 0;
-      margin: 0;
-    }
-    p.title span{
-      font-size: 36px;
-      font-weight: bold;
-    }
-    a.button {
-      padding: 20px 40px;
-      margin: 10px 0;
-      text-decoration: underline;
-      background-color: #00f;
-      color: white;
-      border: 4px solid white;
-    }
-    a.button:hover {
-      background-color: #0ff;
-
+    p.no-wrap {
+      white-space: nowrap;
     }
     blockquote {
       font-style: italic;
@@ -81,6 +66,7 @@
       border-left: 5px solid #0ff;
       font-size: 16px;
     }
+
     li {
       list-style-type: none;
       line-height: 1.5;
@@ -88,9 +74,6 @@
     li span {
       color: #0f0;
       background-color: rgba(20,0,20,90%);
-    }
-    .hover:hover{
-      color: white;
     }
 
     .white-font {
@@ -157,7 +140,6 @@
       font-weight: bold;
       color: white;
     }
-
     .term-box {
       border: 2px solid white;
       background-color: #000;
@@ -168,6 +150,16 @@
       color: white;
       font-weight: bold;
       float: right;
+    }
+
+    @media (max-width: 1000px) {
+      .col {
+        width: 100%;
+        flex: 100%;
+      }
+      .row {
+        display: block;
+      }
     }
   </style>
 </head>
@@ -186,14 +178,33 @@
         Espacio Cultural San Martín, Amado Nervo 601, Bo. San Martín.
       </span>
     </h2>
-    <p><span>
-      Las bellas y feas artes se reunen en la primera<span class="cyan"> muestra artística cyberciruja. </span>
-    </span></p>
+    <div class="row">
+      <div class="col">
+        <p><span>
+          Las bellas y feas artes se reunen en la primera<span class="cyan"> muestra artística cyberciruja. </span>
+        </span></p>
 
-    <blockquote>
-      <span>"El arte cyberciruja es la oportunidad que le damos lxs crotxs digitales a las computadoras de redimirse" (Shañaña Tuein, 1989).</span>
-    </blockquote>
-
+        <blockquote>
+          <span>"El arte cyberciruja es la oportunidad que le damos lxs crotxs digitales a las computadoras de redimirse" (Shañaña Tuein, 1989).</span>
+        </blockquote>
+      </div>
+      <div class="col">
+        <p class="no-wrap">
+          <i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_________________________________<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// CYBERCIRUJAS LUCHA POR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// LA OBSOLESCENCIA POSTERGADA&nbsp;&nbsp;&nbsp;&nbsp;)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;// Y SE SUMA A LA DEFENSA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((<br>
+            &nbsp;&nbsp;&nbsp;// DE LA <b class="cyan">EDUCACIÓN PÚBLICA</b>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<br>
+            &nbsp;&nbsp;// DEL <b class="cyan">ARTE</b> Y LA <b class="cyan">CULTURA</b><b class="white-yellow">*</b><b class="cyan">NACIONAL</b>&nbsp;))</u> <br>
+            &nbsp;//_________________________________(<br>
+            //<br>
+            ᕦ(ò_óˇ)ᕤ
+          </i>
+        </p>
+      </div>
+    </div>
     <div class="term-box">
       <span class="control">| - | [] | X</span>&nbsp;
     </div>
@@ -235,24 +246,122 @@
 
     <div class="row">
       <div class="col">
+        <div class="term-box">
+          <span class="control">| - | [] | X</span>&nbsp;
+        </div>
+        <div class="term-box">
+          <p>// Podés mandar tu propuesta a 
+            <svg
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:cc="http://creativecommons.org/ns#"
+             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:svg="http://www.w3.org/2000/svg"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="130mm"
+             height="10mm"
+             viewBox="0 0 130 10"
+             version="1.1"
+             id="svg8">
+            <defs
+               id="defs2" />
+            <metadata
+               id="metadata5">
+              <rdf:RDF>
+                <cc:Work
+                   rdf:about="">
+                  <dc:format>image/svg+xml</dc:format>
+                  <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                  <dc:title></dc:title>
+                </cc:Work>
+              </rdf:RDF>
+            </metadata>
+            <g
+               id="layer1">
+              <image
+                 width="75.53521"
+                 height="5.2281694"
+                 preserveAspectRatio="none"
+                 style="image-rendering:optimizeQuality"
+                 xlink:href="data:image/png;base64,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
+          "
+                 id="image1264"
+                 x="1.7936317"
+                 y="1.2227566" />
+            </g>
+          </svg>
+          indicando:</p>
+          <ul>
+              <li><span>.Nombre delx artista o agrupación.</span></li>
+              <li><span>.Qué tipo de arte es (música, video, audiovisual, poesía, artesanía, sonido, glitch art, otro).</span></li>
+              <li><span>.Breve descripción de la propuesta:</span></li>
+              <li><span>.Es una performance en vivo o una muestra permanente. Si es una performance cuánto dura (sugerimos no más de media hora)</span></li>
+              <li><span>.Nunca está de más que traigas zapatillas, alargues, cables, etc. Si te hace falta algo trataremos de conseguirlo.</span></li>
+              <li><span>.Es un encuentro sin fines de lucro, por lo que no contamos con recursos para retribuir económicamente. Es totalmente a voluntad de les artistxs.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
         <p><span>Organizan:</span></p>
         <img width=180 src="cybercirujas.svg">
         <img width=180 src="espacio_san_martin_blanco.svg">
-      </div>
-      <div class="col">
-        <p>
-          <i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_________________________________<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// CYBERCIRUJAS LUCHA POR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;// LA OBSOLESCENCIA POSTERGADA&nbsp;&nbsp;&nbsp;&nbsp;)<br>
-            &nbsp;&nbsp;&nbsp;// Y SE SUMA A LA DEFENSA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((<br>
-            &nbsp;&nbsp;// DEL <b class="red">ARTE</b> Y LA <b class="cyan">CULTURA</b><b class="white-yellow">*</b><b class="cyan">NACIONAL</b>&nbsp;))</u> <br>
-            &nbsp;//_________________________________(<br>
-            //<br>
-            ᕦ(ò_óˇ)ᕤ
-          </i>
-        </p>
       </div>
     </div>
     <p><span><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_/<br>// Hecho con <3, (_) y puro HTML y CSS, en Córdoba.</small></span></p>
